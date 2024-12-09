@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+   display: flex;
+   text-decoration: none;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   background-color: black;
+   color: whitesmoke;
+   font-weight: 700;
+}
+
+.navbar ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 16px;
+    
+}
+.main{
+    margin: 70px;
+    display: grid;
+    justify-content: center;
+}
+
+.first{
+    display: flex;
+    margin-bottom: 100px ;
+    
+}
+
+.img1 img{
+    width: 600px;
+    height: 250px;
+    margin-right: 35px;
+    object-fit: cover;
+}
+.disc1{
+    width: 600px;
+}
+.disc1 h1, p, button{
+    margin-bottom: 10px;
+}
+
+
+.btn1{
+    padding: 5px 10px;
+    background-color: #454545;
+    color: 	#FFFFFF;
+    border: none;
+    border-radius: 3px;
+}
+
+.second{
+    display: flex;
+    margin-bottom: 100px;
+}
+.img2 img{
+    width: 600px;
+    height: 250px;
+    margin-left: 35px;
+    object-fit: cover;
+}
+.disc2{
+    width: 600px;
+}
+
+.third{
+display: flex;
+margin-bottom: 100px;
+/* margin-bottom: 100px; */
+}
+
+
+.img3 img{
+    width: 600px;
+    height: 250px;
+    margin-right: 35px;
+    object-fit: cover;
+}
+
+.disc3{
+    width: 600px;
+}
+
+.disc3 h1, p, button{
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: #454545;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+.comp ul li{
+display: grid;
+padding-bottom: 3px;
+font-size: 13px;
+}
+
+.sup ul li{
+display: grid;
+padding-bottom: 3px;
+font-size: 13px;
+}
+.ser ul li{
+display: grid;
+padding-bottom: 3px;
+font-size: 13px;
+}
+.legal ul li{
+display: grid;
+padding-bottom: 3px;
+font-size: 13px;
+}
+.Follow ul li{
+display: grid;
+padding-bottom: 3px;
+font-size: 13px;
+}
